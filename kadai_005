@@ -1,1 +1,63 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPkknjcD+dOPwykcKTOO3dv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mr-karii1945/Python-basic-kadai/blob/main/kadai_005\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cI-Ra3eDGHaa",
+        "outputId": "d501dcd6-17d0-47f0-f37e-0e3500538bcb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "台形の面積:75.0cm²\n",
+            "台形の面積: 75.0 cm²\n"
+          ]
+        }
+      ],
+      "source": [
+        "'''\n",
+        "# 上辺：10㎝\n",
+        "# 下辺：20㎝\n",
+        "# 高さ：5㎝\n",
+        "# 公式：(上辺+下辺)＊高さ/2\n",
+        "'''\n",
+        "\n",
+        "print(\"台形の面積:\" + str(((10 + 20) * 5) / 2) + \"cm²\")\n",
+        "\n",
+        "print(\"台形の面積:\",(10+20)*5/2,\"cm²\")"
+      ]
+    }
+  ]
+}
