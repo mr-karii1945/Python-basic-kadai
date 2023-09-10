@@ -1,0 +1,10 @@
+def calculate_total_price(product_price, tax_rate=0.1):
+  #商品の金額に消費税を加えて計算
+  total_price = product_price + (product_price * tax_rate)
+  return total_price
+
+#商品の金額と消費税率を指定して計算
+product_price = 1500 #商品の金額
+tax_rate = 0.1 #消費税率(10％)
+total_price = calculate_total_price(product_price, tax_rate)
+print(f"{total_price}円です")
