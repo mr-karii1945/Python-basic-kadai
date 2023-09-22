@@ -1,15 +1,1 @@
-import numpy as np
 
-a = np.arange(6).reshape(2, 3)
-b = np.arange(8).reshape(2, 4)
-
-a, b
-
-a = a * 5
-b = b * 5
-
-a, b
-
-a.max()
-
-b.max()
